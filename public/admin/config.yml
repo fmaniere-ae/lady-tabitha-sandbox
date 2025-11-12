@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ton-github/site-association   # ← à remplacer
+  repo: git@github.com:fmaniere-ae/lady-tabitha-sandbox.git   # ← à remplacer
   branch: main
 
 media_folder: "public/uploads"

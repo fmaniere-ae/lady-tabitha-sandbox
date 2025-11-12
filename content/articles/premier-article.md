@@ -1,1 +1,6 @@
----\ntitle: Premier article\ndate: 2025-10-14\n---\n\nBienvenue sur le site de notre association !
+---
+title: Premier article
+date: 2025-10-14
+---
+
+Bienvenue sur le site de notre association !
