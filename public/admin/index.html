@@ -1,29 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <meta charset="utf-8" />
-    <title>Administration - Association</title>
-    <style>
-      html, body { margin: 0; padding: 0; height: 100%; }
-      #nc-root { height: 100%; }
-    </style>
+    <meta charset="UTF-8" />
+    <title>Administration</title>
   </head>
   <body>
     <div id="nc-root"></div>
-    <script>
-      // Charger le CMS uniquement après le DOM
-      window.addEventListener('DOMContentLoaded', () => {
-        const script = document.createElement('script');
-        script.src = "https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js";
-        script.onload = () => {
-          if (window.CMS && typeof window.CMS.init === 'function') {
-            window.CMS.init();
-          } else {
-            console.error("CMS not found after script load");
-          }
-        };
-        document.body.appendChild(script);
-      });
-    </script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
